@@ -1,0 +1,99 @@
+body {
+    background-color: #8ba0a4;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: justify;
+    margin: 0% 21% 0% 21%;
+}
+
+header {
+    text-align: center;
+}
+
+h1 {
+    color: #1b4552;
+    font-family: 'Georgia', 'Garamond', 'Baskerville';
+    font-weight: bold;
+    font-size: 300%;
+    margin-bottom: 40px;
+    padding-top: 30px;
+}
+
+p {
+    color: #eaeaea;
+    font-family: Tahoma, Helvetica, Verdana;
+    text-shadow: #ffd9e3;
+    line-height: 1.5;
+}
+
+h2 {
+    font-style: italic;
+    font-weight: bold;
+    color: #183e4b;
+    margin: 15px 0;
+}
+
+li {
+    font-style: italic;
+    font-weight: bold;
+    color: #183e4b;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+ul {
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+
+ul.tech {
+    list-style-type: square;
+}
+
+ul.school {
+    list-style: square inside url('https://www.flaticon.com/free-icon/graduate_5404967?term=school&page=1&position=19&origin=tag&related_id=5404967');
+}
+
+#main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+li:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    
+}
+
+#hobbies {
+    margin-top: 20px;
+}
+
+ol#hobbies {
+    padding-left: 20px;
+}
+
+ol#hobbies li {
+    margin-bottom: 10px;
+}
+
+ul.Certifications{
+    list-style-type: square;
+}
+
+ul.Skills{
+    list-style-type: disc;
+}
+
+#top{
+    color: blue;
+    font-family: tahoma;
+    font-style: italic;
+    text-decoration: underline;
+    line-height: .5;
+}
